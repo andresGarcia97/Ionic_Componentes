@@ -1,0 +1,38 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>buttons</ion-title>
+    <ion-buttons slot="end">
+      <ion-button color="primary">
+        <ion-icon name="save"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-button size="small" expand="full">Small</ion-button>
+  <ion-button size="default" expand="full">Default</ion-button>
+  <ion-button size="large" expand="full">Large</ion-button>
+
+  <ion-button class="top-20" expand="full" routerLink="/alert" color="tertiary">Anchor</ion-button>
+
+  <ion-row class="top-20">
+    <ion-col>
+      <ion-button expand="full" routerLink="/avatar" color="tertiary">Anchor</ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button expand="full" routerLink="/alert" color="tertiary">Anchor</ion-button>
+    </ion-col>
+  </ion-row>
+
+  <ion-button class="top-20" fill="clear">Cle</ion-button>
+  <ion-button class="top-20" fill="default">Def</ion-button>
+  <ion-button class="top-20" fill="outline">Out</ion-button>
+  <ion-button class="top-20" fill="solid">Sol</ion-button>
+  <ion-button class="top-20" fill="undefined">Un</ion-button>
+  
+</ion-content>
